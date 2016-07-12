@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../font/helveticaneuecyr-thin-webfont.eot');
+    src: url('../font/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('../font/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	margin: 0; 
+    padding: 0;}
+
+.content{
+    background: url(../image/fon.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+header{
+     background:url("../image/bg-head.png");
+     position: relative;
+     height: 37px;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+
+.menu li {
+	float: right;
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-right: 10px; 
+}
+
+.menu a {
+    display:block;
+    padding:10px 15px;
+    text-decoration:none;
+    color:#60b5ed;
+    font: 14px "Helvetica Neue",arial, sans-serif;
+    letter-spacing:1px;
+}
+
+.menu li:nth-child(1) {
+    background: linear-gradient(to top, #2e7ac4, #50afdc);
+    color: white;
+    border-radius: 1px;
+    border-left: 1px solid #56a2dc;
+    border-right: 1px solid #56a2dc;
+}
+
+.menu .b1,
+.menu .b2 {
+    color: white;
+}
+     
+.menu .b2{
+    border-left: 1px solid #56a2dc;
+    line-height: 40px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.menu a:hover {
+    background:#4eabda;
+    text-decoration:none;
+    color: #ffffff;
+    height: 20px;
+}
+
+#flag{
+    position: relative;
+    bottom: 4px;
+}
+.menu .b1:hover,
+.menu .b2:hover {
+    background: transparent;
+    color: white;
+}
+
+.s1 {
+    position: relative;
+    bottom: 15px;
+    padding-left: 10px;
+   
+}
+
+.s2,
+.s3 {
+    text-decoration: underline;
+}
+
+.register{
+    position: relative;
+    width: 600px;
+    height: 690px;
+    background: rgba(0,0,0,0.5);
+    margin:130px auto;
+}
+.head{
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    border-bottom: 2px solid #afb8a3;
+}
+h1 {
+    font: 34px "Helvetica Neue",arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a.fb {
+     position: absolute;
+     display: block;
+     top: 100px;
+     left: 160px;
+     width: 275px;
+     height: 35px;
+     outline: none;
+     border-radius: 6px;
+     background: url(../image/logface.png) no-repeat;
+     border-top: 1px solid #7789b7;
+}
+.sep{
+    line-height: 0.5;
+    text-align: center;
+
+}
+.sep span {
+    display: inline-block;
+    position: relative; 
+    top: 180px;
+    color: #999;
+}
+.sep span:before,
+.sep span:after {
+    content: "";
+    position: absolute;
+    border-bottom: .5px solid #000;
+    border-top: 1px solid #666;
+    width: 121px;
+}
+.sep span:before {
+    right: 100%;
+    margin-right: 5px;
+}
+.sep span:after {
+    left: 100%;
+    margin-left: 5px;
+}
+form{
+    position: relative;
+    top: 230px;
+    display: block;
+}
+.first_name, .last_name,.email,.password,.conf_pass{
+    width: 276px;
+    line-height: 33px;
+    height: 33px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    margin: 0 162px 16px;
+    padding-left: 18px;
+    font-family: 'HelveticaNeue Cyr', sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.first_name:focus{
+    background-color:#1b5288;
+     box-shadow: 0 0 15px rgba(128,193,255,.9);
+
+}
+
+ .last_name:focus{
+    background-color:#1b5288;
+    box-shadow: 0 0 15px rgba(128,193,255,.9);
+
+}
+.email:focus{
+    background-color:#1b5288;
+     box-shadow: 0 0 15px rgba(128,193,255,.9);
+
+}
+.password:focus{
+    background-color:#1b5288;
+    box-shadow: 0 0 15px rgba(128,193,255,.9);
+}
+
+.conf_pass:focus{
+    background-color:#1b5288;
+     box-shadow: 0 0 15px rgba(128,193,255,.9);
+}
+
+.box{
+    position: relative;
+    font: 16px "Helvetica Neue",arial, sans-serif;
+    color:#acaba9;
+    left: 154px;
+    top: 15px;
+    
+}
+
+.submit{
+     background: rgb(46, 122, 196);
+     position: relative;
+     top: 40px;
+     left: 200px;
+     height: 35px;
+     width: 150px;
+     display:block;
+     color: white;
+     font-size: 14px;
+     text-decoration: none;
+     outline: none;
+     border: none;
+     border-radius: 2px;
+     background: #4ba7d8;
+     text-align: center;
+     line-height: 35px;
+     overflow: hidden;
+     clear: both;
+     cursor:pointer;
+}
+.terms{
+    position: relative;
+    top: 300px;
+    left: 140px;
+	margin-top: 5px; 
+	font-size: 14px;
+	color: #acaba9;
+}
+.link{
+    right:30px;
+	text-decoration: none;
+	color: #acaba9;
+}
